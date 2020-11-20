@@ -1,0 +1,11 @@
+prefix=/home/mips/util-linux
+exec_prefix=/home/mips/util-linux
+libdir=/home/mips/util-linux/lib
+includedir=/home/mips/util-linux/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.36.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
