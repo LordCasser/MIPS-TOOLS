@@ -1,0 +1,10 @@
+prefix=/home/mips/util-linux
+exec_prefix=/home/mips/util-linux
+libdir=/home/mips/util-linux/lib
+includedir=/home/mips/util-linux/include
+
+Name: smartcols
+Description: table or tree library
+Version: 2.36.1
+Cflags: -I${includedir}/libsmartcols
+Libs: -L${libdir} -lsmartcols
